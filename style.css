@@ -1,0 +1,66 @@
+body {
+  /*background-color: rgb(242,242,242);*/
+  background-image: url('https://images.unsplash.com/photo-1551149248-3386a530fc23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+  background-size: cover;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: rgb(170,170,170);
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: #7EBC89;
+  font-size: 28px;
+}
+
+h2, h3 {
+  font-weight: normal;
+  color: rgb(85,85,85);
+}
+
+div .card {
+  background-color: rgba(240,240,240,0.94);
+  /*background-color: #ffffff;*/
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: solid #d3d3d39e;
+  border-width: thin;
+  border-radius: 6px;
+  box-shadow: 2px 2px 3px #d3d3d373;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(175,175,175);
+}
+
+a:hover {
+  color: #F35B04;
+}
+
+#header img {
+  border-radius: 90px;
+}
+
+#header a {
+  background-color: #51c898d6;
+  border-radius: 5%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.card ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card li {
+  display: inline-block;
+  padding: 0 25px;
+}
